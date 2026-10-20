@@ -12,6 +12,7 @@ import Paradox from "../../assets/projects/paradox.png";
 import Spotify from "../../assets/projects/spotify.png";
 import Slushies from "../../assets/projects/slushies.png";
 import { useLocation } from "react-router-dom";
+import pfp from "../../assets/pfp_ig.jpg";
 
 export default function Home() {
     const [isVisible, setIsVisible] = useState(false)
@@ -89,7 +90,7 @@ export default function Home() {
                             <div className="w-50 h-50 rounded-3xl bg-gray-500 animate-pulse" />
                         )}
                         <img
-                            src="https://github.com/MustafaBioS.png?size=200"
+                            src={pfp}
                             alt="Profile Picture"
                             className={`rounded-3xl`}
                             style={animate(0)}

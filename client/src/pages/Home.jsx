@@ -134,7 +134,7 @@ export default function Home() {
                         )}
                     </div>
                     <div className="flex flex-row items-center gap-6 pt-4" style={animate(3)}>
-                        <a href="https://github.com/MustafaBioS" target="_blank">
+                        <a href="https://github.com/MustafaBioss" target="_blank">
                             <img src={githubLogo} alt="Github Logo" className="transition-all duration-300 ease-in-out hover:-translate-y-1 hover:opacity-75 w-9" />
                         </a>
                         <a href="https://open.spotify.com/user/31iornw33kqeejopjajqutfhv6ea?si=933c9d678194426c" target="_blank">
